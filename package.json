@@ -1,0 +1,28 @@
+{
+  "name": "tme-api-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/client.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "http-build-query": "^0.7.0",
+    "sort-keys": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.7",
+    "typescript": "^2.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piotrkochan/tme-api-typescript-client.git"
+  },
+  "author": "Piotr Kochan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piotrkochan/tme-api-typescript-client/issues"
+  },
+  "homepage": "https://github.com/piotrkochan/tme-api-typescript-client#readme"
+}
