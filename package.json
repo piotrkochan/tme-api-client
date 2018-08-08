@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/piotrkochan/tme-api-typescript-client.git"
+    "url": "git+https://github.com/piotrkochan/tme-api-client.git"
   },
   "author": "Piotr Kochan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/piotrkochan/tme-api-typescript-client/issues"
+    "url": "https://github.com/piotrkochan/tme-api-client/issues"
   },
-  "homepage": "https://github.com/piotrkochan/tme-api-typescript-client#readme"
+  "homepage": "https://github.com/piotrkochan/tme-api-client#readme"
 }

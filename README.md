@@ -2,6 +2,9 @@
 
 Simple TME API Client written in Typescript.
 
+* https://developers.tme.eu/en/
+* https://tme.eu/
+
 ## Installation:
 
 ```
@@ -22,6 +25,13 @@ const client: TmeApiClient = new TmeApiClient(token, secret);
 client.request('Products/GetProducts', {SymbolList: ['LEG-12']})
     .then(console.log)
     .catch((err: AxiosError) => console.log(err.response.data));
+```
+
+Not a TypeScript fan? Just use:
+
+```
+const TmeApiClient = require('tme-api-client').TmeApiClient;
+const client = new TmeApiClient('...', '...');
 ```
 
 ## License
