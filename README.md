@@ -13,7 +13,7 @@ npm add tme-api-client
 
 ## Example usage:
 
-```
+```javascript
 import { AxiosError } from "axios";
 import { TmeApiClient } from 'tme-api-client';
 
@@ -29,7 +29,7 @@ client.request('Products/GetProducts', {SymbolList: ['LEG-12']})
 
 Not a TypeScript fan? Just use:
 
-```
+```javascript
 const TmeApiClient = require('tme-api-client').TmeApiClient;
 const client = new TmeApiClient('...', '...');
 ```
