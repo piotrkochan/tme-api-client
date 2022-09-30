@@ -59,6 +59,7 @@ export class TmeApiClient {
             .replace(/\(/g, '%28')
             .replace(/\)/g, '%29')
             .replace(/\*/g, '%2A')
+            .replace(/%2B/g, '%2520')
     }
 
     private calcSig(url: string, data: object) {
